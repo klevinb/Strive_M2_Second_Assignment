@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Account details</title>
+    <style>
+      body{
+        background-color: white;
+      }
+      .icon{
+          position: absolute;
+          right: 0;
+          padding-right: 50px;
+        }
+      .navbar{
+        height: 70px;
+      }
+
+      .row label{
+        padding: 0;
+        margin: 0;
+        padding-bottom: 5px;
+      }
+      .title {
+        font-weight: 700;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <div id="navDiv">
+            <nav class="navbar navbar-expand-lg pl-3 pt-0 m-0 navbar-light" id="nav" style="background-color: #141414;">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/icon.png" alt="logo" style="height: 100px; width: 100px;"> 
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style="background-color:#141414;">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" style="color: white;">Home</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">TV Shows</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Movies</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Recently Added</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">My List</a>
+                      </li>
+                  </ul>
+                  <div class="icon">
+                  <form class="form-inline" style="float: right;">
+                    <button class="btn btn-outline-success" type="submit" style="border: 0px solid #141414;"><img src="https://lh3.googleusercontent.com/Dun9_DGo0FkIxZregmItpLxnc4vQm8VY-UUwwnU2Ostifl8DaqAJB-fRT3O8bdEKrc596yk=s85" alt="search" style="width: 30px;">
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer" style="color: white;">KIDS</a>
+                          </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Profile</a>
+                          <a class="dropdown-item" href="#">Account</a>
+                        </div>
+                      </li>
+                      </ul>
+                  </form>
+                  </div>
+                </div>
+              </nav>
+            <div class="container pt-5">
+              <h2 style="color: gray;">Account</h2>
+              <hr>
+              <div class="row">
+                <div class="col-3">
+                  <label class="title">MEMBERSHIP & BILLING</label><br>
+                  <button id="cancelButton" >Cancel Membership</button>
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <label><b>student@strive.school</b></label><br>
+                      <label>Password: ***********</label><br>
+                      <label>Phone: 0000000000</label>
+                    </div>
+                    <div class="col text-right">
+                      <a href=""><label>Change account email</label></a><br>
+                      <a href=""><label>Change password</label></a><br>
+                      <a href=""><label>Change phone number</label></a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col">
+                      <img src="/images/Paypal-Logo.png" height="30px" width="70px" />
+                      <label style="font-weight: 500; padding-left: 5px;"><b>admin@strive.school</b></label>
+                    </div>
+                    <div class="col text-right">
+                      <a href=""><label>Update Payment Info</label></a><br>
+                      <a href=""><label>Billing details</label></a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col text-right">
+                      <a href=""><label>Redeem gift card or promo code</label></a><br>
+                      <a href=""><label>Where to buy gift cards</label></a>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-3">
+                  <label class="title">PLAN DETAILS</label>
+                </div>
+                <div class="col">
+                  <label><b>Premium ULTRA HD</b></label>
+                </div>
+                <div class="col text-right">
+                  <a href=""><label>Change plan</label></a>
+                </div>
+
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-3">
+                  <label class="title">SETTINGS</label>
+                </div>
+                <div class="col">
+                  <a href=""><label>Parental controls</label></a><br>
+                  <a href=""><label>Test participation</label></a><br>
+                  <a href=""><label>Manage download devices</label></a><br>
+                  <a href=""><label>Activate a device</label></a><br>
+                  <a href=""><label>Recent device streaming activity</label></a><br>
+                  <a href=""><label>Sign out from all devices</label></a>
+                </div>
+
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-3">
+                  <label class="title">MY PROFILE</label>
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <img src="/images/avatarStrive.png" height="50px" width="50" />
+                      <label"><b>Strive Student</b></label><br>
+
+                    </div>
+                    <div class="col text-right">
+                      <a href=""><label>Manage profiles</label></a><br>
+                      <a href=""><label>Add profile email</label></a>
+                    </div>
+                  </div>
+                      <div class="row">
+                        <div class="col">
+                        <a href=""><label  class="pt-3">Language</label></a><br>
+                        <a href=""><label>Playback settings</label></a><br>
+                        <a href=""><label>Subtitle appearance</label></a>
+                        </div>
+                        <div class="col">
+                          <a href=""><label>Viewing activity</label></a><br>
+                          <a href=""><label>Ratings</label></a>
+                        </div>
+                      </div>
+                  
+                </div>
+
+              </div>
+            </div>
+              
+        </div>
+    
+          
+          
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
